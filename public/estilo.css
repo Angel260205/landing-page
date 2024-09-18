@@ -91,3 +91,27 @@ nav ul li a {
 .buttons button:hover {
     background-color: #bbb;
 }
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #444;
+}
+
+.image-gallery div {
+    margin: 5px;
+}
+
+.image-gallery img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #1f1e1e; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.image-gallery img:hover {
+    transform: scale(1.2); 
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7); 
+}
